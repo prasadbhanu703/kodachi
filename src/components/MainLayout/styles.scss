@@ -1,0 +1,20 @@
+.main-layout-container {
+
+    .main-layout-wrapper {
+        background-color: #1c1c1c;
+
+        .main-layout-children {
+            background: url('../../assets/images/bg-image.png') no-repeat center center/cover;
+            // min-height: calc(100vh - 267px);
+
+            min-height: 90vh;
+
+            // min-height:100vh ;
+
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 15px 20px;
+
+        }
+    }
+}

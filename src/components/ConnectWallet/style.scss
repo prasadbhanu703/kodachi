@@ -1,0 +1,39 @@
+.connectWallet-container {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+
+    .connectWallet-heading {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: $white;
+        margin-top: -16px;
+    }
+
+    .walletCard-terms {
+        background: $grey-300;
+        border: 1px solid $white;
+        border-radius: 17px;
+        height: 76.67px;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+
+        .terms-text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 16px;
+            padding: 10px 15px;
+            color: $white;
+
+            .terms-link {
+                color: #2850E8;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+}

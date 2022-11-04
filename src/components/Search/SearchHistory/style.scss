@@ -1,0 +1,27 @@
+.search-history-wrapper {
+    background: $grey-300;
+    border: 1px solid $white;
+    border-radius: 17px;
+    width: fit-content;
+    margin-top: 10px;
+
+    .search-history-card {
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+
+        .currency-icon {
+            width: 23px;
+            height: 23px;
+        }
+
+        .currency-name {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            margin-left: 5px;
+        }
+    }
+}

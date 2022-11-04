@@ -1,0 +1,206 @@
+.account-modal-container {
+    .account-modal-wrapper {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+
+        .account-modal-top {
+            background-color: $black-100;
+            padding-left: 18px;
+            padding-right: 18px;
+
+            .account-modal-title {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 29px;
+                color: #FFFFFF;
+                margin-left: 15px;
+                margin-top: 16px;
+
+            }
+
+            .account-modal-top-card-wrapper {
+                border: 0.5px solid $white;
+                border-radius: 29px;
+                width:100%;
+                height: 207px;
+                padding: 28px;
+                margin-top: 30px;
+
+                .card-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .left-side-text {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 24px;
+
+                        color: $grey-100;
+                    }
+
+                    .right-side-btn {
+                        display: flex;
+                        align-items: center;
+
+                        .disconnect-btn,
+                        .change-btn {
+                            border: 1px solid #FFFFFF;
+                            border-radius: 59px;
+                            width: 112px;
+                            height: 38px;
+                            display: flex;
+                            margin: 0 auto;
+                            align-items: center;
+                            justify-content: center;
+
+                            span {
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 17px;
+                                /* identical to box height */
+
+
+                                color: $blue;
+                            }
+                        }
+
+                        .change-btn {
+                            margin-left: 20px;
+                        }
+                    }
+                }
+
+                .card-body {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+
+                    .pie-graph {
+                        width: 35px;
+                        height: 35px;
+                    }
+
+                    .card-no {
+                        font-weight: 600;
+                        font-size: 36px;
+                        line-height: 44px;
+                        color: $white;
+                        margin-left: 15px;
+                    }
+                }
+
+                .card-footer {
+                    display: flex;
+                    align-items: center;
+
+                    .copy-address {
+                        display: flex;
+                        align-items: center;
+                        margin-right: 40px;
+                        cursor: pointer;
+                        .copy-icon {
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 10px;
+                        }
+
+                        span {
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 24px;
+
+                            color: $blue;
+                        }
+                    }
+
+                    .view-on-explore {
+                        display: flex;
+                        align-items: center;
+
+                        .share-icon {
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 10px;
+
+                        }
+
+                        span {
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 24px;
+
+                            color: #9096AA;
+                        }
+                    }
+                }
+            }
+        }
+
+        .account-modal-bottom {
+            background: $grey-300;
+            border-radius: 0px 0px 57px 52px;
+            min-height: 322px;
+            padding: 30px 46px;
+
+            .account-transaction-wrapper {
+                .transaction-heading {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .transaction-title {
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 29px;
+
+                        color: $white;
+                    }
+
+                    .transaction-subtitle {
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 24px;
+
+                        color: $blue;
+                    }
+                }
+
+                .transaction-history-wrapper {
+                    margin-top: 30px;
+
+                    .transaction-history {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 25px;
+
+                        .transaction-name {
+                            span {
+                                font-weight: 600;
+                                font-size: 20px;
+                                line-height: 24px;
+
+                                color: $blue;
+                            }
+
+                            .up-arrow {
+                                width: 20.25px;
+                            }
+                        }
+
+                        .checklist {
+                            .check-list-icon {
+                                width: 30px;
+                                height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

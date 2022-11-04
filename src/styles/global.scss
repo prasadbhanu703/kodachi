@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+/* :root{
+  font sizes: 
+  40 36 32 24 22 20 18 16 15 14 12 10
+  creating font varibles page wise instead  in root
+
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    // url(../../public/assets/fonts/Montserrat.woff) format("woff"),
+
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    // url(../../public/assets/fonts/Poppins.woff) format("woff"),
+
+}

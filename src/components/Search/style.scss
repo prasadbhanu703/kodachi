@@ -1,0 +1,38 @@
+.search-container {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    width: 100%;
+    padding: 7px 7px;
+    background: $grey-300;
+    border: 1px solid $white;
+    border-radius: 17px;
+
+    .search-input {
+
+        background: $grey-300;
+        border: none;
+        color: $white;
+
+        &:focus {
+            outline: none;
+        }
+
+    }
+
+    .search-icon {
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $grey-300;
+
+        border: none;
+        box-sizing: border-box;
+        border-radius: 0px 8px 8px 0px;
+        margin-right: 5px;
+    }
+}

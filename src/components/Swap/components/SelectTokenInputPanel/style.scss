@@ -1,0 +1,50 @@
+.select-token-input-panel-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  border-radius: 20px;
+  z-index: 1;
+  width: initial;
+  transition: height 1s ease;
+  will-change: height;
+
+  .select-token-input-panel-inner {
+    min-height: 44px;
+    border-radius: 20px;
+    width: initial;
+    background: $secondary;
+    border-radius: 29px;
+    padding: 15px 15px;
+
+    .Input-row {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+
+      .StyledNumericalInput {
+        max-width: 295px;
+      }
+    }
+    .show-balance {
+      text-align: right;
+      padding-top: 12px;
+      padding-right: 15px;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      color: $grey-100;
+
+      .max-button {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+
+        color: #3a70dd;
+      }
+    }
+  }
+}
+

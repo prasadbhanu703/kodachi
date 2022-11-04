@@ -1,0 +1,198 @@
+.swap-settingModal-container {
+    position: absolute;
+    top: 74px;
+    right: 13px;
+    z-index: 111;
+    background-color: $black-100;
+    border: 1px solid $grey-300;
+    width: 380px;
+    height: 330.6px;
+    border-radius: 36px;
+    padding: 25px;
+
+    .settingModal-title {
+        color: $white;
+    }
+
+    .sub-title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 12px;
+        color: $grey-600;
+        margin-top: 8px;
+    }
+
+    .setting-input-wrapper {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+
+        .left-side {
+            width: 53.22px;
+            height: 27.42px;
+
+            display: flex;
+            align-items: center;
+
+            .auto-button {
+                background: $blue;
+                border: 0.5px solid $white;
+                border-radius: 29px;
+                text-align: center;
+                padding: 6px 10px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;
+                color: $white;
+            }
+
+        }
+
+        .right-side {
+            .input-wrapper {
+                background: #222428;
+                border: 0.5px solid #FFFFFF;
+                border-radius: 29px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                height: 27.42px;
+
+                input {
+                    border: none;
+                    background-color: transparent;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: $grey-700;
+                    text-align: right;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                .symbol {
+                    color: $white;
+                }
+            }
+
+        }
+    }
+
+
+    .transaction-deadline {
+
+        .transaction-heading {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 15px;
+            color: $white;
+            margin-top: 18px;
+            margin-bottom: 18px;
+        }
+
+        .input-wrapper {
+            border: 0.5px solid #FFFFFF;
+            border-radius: 29px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+
+            width: 100px;
+            height: 27.42px;
+
+            .minutes {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 15px;
+
+                color: $white;
+                margin-left: 20px;
+            }
+
+            input {
+                border: none;
+                background-color: transparent;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: $grey-700;
+                text-align: right;
+                width: 81.71px;
+                height: 27.42px;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+        }
+    }
+
+    .interface-settings {
+        .interface-heading {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 15px;
+            color: $white;
+            margin-top: 18px;
+            margin-bottom: 18px;
+        }
+
+        .switch-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .left-side-text {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 15px;
+                /* identical to box height */
+
+
+                color: $white;
+            }
+
+            .right-side-switch {
+                // width: 50.27px;
+                // height: 28.91px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                padding-left: 30px;
+                color: #595959;
+                font-size: 14px;
+
+                cursor: pointer;
+                border-radius: 8px;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.currency-card-container {
+    margin-bottom: 10px;
+    cursor: pointer;
+    .currency-card-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left-container {
+            display: flex;
+            align-items: center;
+
+            .currency-icon {
+                margin-right: 10px;
+            }
+
+            .currency-info {
+
+                .currency-name {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: $white;
+                    padding-bottom: 4px;
+                }
+
+                .small-name {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: $grey-400;
+                }
+            }
+        }
+    }
+}

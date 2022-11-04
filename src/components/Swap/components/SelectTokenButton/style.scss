@@ -1,0 +1,42 @@
+.token-select-btn-container {
+    .token-select-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 146px;
+        background: #3A70DD;
+        border-radius: 23px;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);
+        color: #FFFFFF;
+        cursor: pointer;
+        height: unset;
+        border-radius: 16px;
+        outline: none;
+        user-select: none;
+        opacity: 1;
+        border: none;
+        padding: 10px 10px 10px 8px;
+
+        .token-btn-wrapper {
+            .token-btn-name {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 16px;
+            }
+        }
+
+        .down-arrow-wrapper {
+
+            .down-arrow {
+                width: 9.97px;
+                height: 10.76px;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+        }
+    }
+}

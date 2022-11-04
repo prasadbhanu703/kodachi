@@ -1,0 +1,65 @@
+.modal-container {
+    position: fixed;
+    top: 100vh;
+    right: 0;
+    bottom: -100vh;
+    left: 0;
+    background: hsla(0, 0%, 0%, 0.33);
+
+
+    .card {
+        position: relative;
+        margin: 0 0 2rem 0;
+        // background-color: $black-100;
+        border: 1px solid $grey-300;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+        padding: 0px;
+        width: 50vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+        max-width: 420px;
+        // max-height: 58vh;
+        // min-height: 58vh;
+        display: flex;
+        // border-radius: 63px;
+        color: $white;
+        margin-top: 20px;
+
+
+        .close-cross {
+            cursor: pointer;
+            position: absolute;
+            right: 23px;
+            top: 21px;
+            background-color: transparent;
+            border: none;
+        }
+
+        .content {
+            height: inherit;
+            width: 100%;
+        }
+
+    }
+
+    .card.active {
+        opacity: 1;
+        transition: 250ms;
+    }
+
+    .card.inactive {
+        opacity: 0;
+        transition: 150ms;
+    }
+}
+
+.modal-container.active {
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 990;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

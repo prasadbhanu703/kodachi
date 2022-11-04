@@ -1,0 +1,39 @@
+.main-navbar-container {
+    background: $black;
+    padding:0px 200px;
+
+    .main-navbar-wrapper {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+
+        .hamburger-wrapper {
+            margin-left: 20px;
+        }
+
+        .nav-links-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 1600px;
+
+            .links {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 129.2%;
+                /* or 26px */
+
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: $white;
+                cursor: pointer;
+            }
+        }
+    }
+}

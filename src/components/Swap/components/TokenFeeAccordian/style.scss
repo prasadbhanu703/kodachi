@@ -1,0 +1,137 @@
+.token-fee-accordion-container {
+    .accordion-wrapper {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 14px;
+        padding-right: 14px;
+
+        .accordion-title-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            .accordion-title {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                color: $white;
+            }
+
+            .accordion-arrow {
+                cursor: pointer;
+
+                .arrow-down {
+                    width: 15px;
+                    height: 15px;
+                    transform: rotate(180deg);
+                    -webkit-transform: rotate(180deg);
+                    -moz-transform: rotate(180deg);
+                    -ms-transform: rotate(180deg);
+                    -o-transform: rotate(180deg);
+                    transition: .3s ease-in-out;
+                    -webkit-transition: .3s ease-in-out;
+                    -moz-transition: .3s ease-in-out;
+                    -ms-transition: .3s ease-in-out;
+                    -o-transition: .3s ease-in-out;
+                }
+
+                .arrow-up {
+                    width: 15px;
+                    height: 15px;
+
+                    transition: .3s ease-in-out;
+                    -webkit-transition: .3s ease-in-out;
+                    -moz-transition: .3s ease-in-out;
+                    -ms-transition: .3s ease-in-out;
+                    -o-transition: .3s ease-in-out;
+                }
+            }
+        }
+
+        .accordion-content {
+            display: flex;
+            align-items: center;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            color: $white;
+            margin-top: 18px;
+            margin-bottom: 24px;
+
+            .info-icon {
+                cursor: pointer;
+                width: 15px;
+                height: 15px;
+                margin-right: 10px;
+            }
+
+            .accordion-value-info-hover-wrapper {
+
+                .accordion-info-inner {
+                    padding: 8px;
+                    position: relative;
+
+                    .seperator-line {
+                        position: absolute;
+                        height: 1px;
+                        width: calc(100%);
+                        background: #f0f0f0;
+                        bottom: 0px;
+                        left: 0;
+                    }
+
+                    .accordion-info-text-wrapper {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .accordion-left-text,
+                        .accordion-right-text {
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 12px;
+                            text-align: center;
+                            color: $white;
+                            padding-bottom: 8px;
+                        }
+                    }
+                }
+
+                .accordion-info-inner-bottom {
+                    padding: 8px;
+                    position: relative;
+
+                    .seperator-line {
+                        position: absolute;
+                        height: 1px;
+                        width: calc(100%);
+                        background: #f0f0f0;
+                        bottom: 0px;
+                        left: 0;
+                    }
+
+                    .accordion-info-text-wrapper {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .accordion-left-text,
+                        .accordion-right-text {
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 12px;
+                            text-align: center;
+                            color: #A7A7A7;
+                            padding-bottom: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

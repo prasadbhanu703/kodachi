@@ -1,0 +1,40 @@
+@import "../styles/color.scss";
+
+// components
+@import "../components/MainLayout/styles.scss";
+@import "../components/HeaderNavbar/style.scss";
+@import "../components/MainNavbar/style.scss";
+@import "../components/Footer/style.scss";
+@import "../components/Swap/components/style.scss";
+@import "../components/Input/style.scss";
+@import "../components/CurrencySelect/style.scss";
+@import "../components/Swap/components/SwapArrow/style.scss";
+@import "../components/Swap/components/SelectTokenInputPanel/style.scss";
+@import "../components/Swap/components/SelectTokenButton/style.scss";
+@import "../components/Modal/style.scss";
+@import "../components/SelectTokenModal/style.scss";
+@import "../components/Search/style.scss";
+@import "../components/Search/SearchHistory/style.scss";
+@import "../components/SelectTokenModal/currencyCard/style.scss";
+@import "../components/Swap/components/TokenFeeAccordian/style.scss";
+@import "../components/Swap/components/PendingModal/style.scss";
+@import "../components/Swap/components/SwapTranscationModals/TranscationSubmited/style.scss";
+@import "../components/Swap/components/SwapSettingModal/style.scss";
+@import "../components/Switch/style.scss";
+@import "../components/Swap/components/SwapTranscationModals/TransactionFailed/style.scss";
+@import "../components/ConnectWallet/style.scss";
+@import "../components/ConnectWallet/WalletCard/style.scss";
+@import "../components/ConnectWallet/AccountModal/style.scss";
+@import "../components/LiquidityRemove/LpDropdown/style.scss";
+@import "../components/LiquidityRemove/LiquidityRemoveModal/style.scss";
+
+// tooltip css
+@import "../components/Tooltip/style.scss";
+
+
+// pages
+
+@import "../styles/swap.scss";
+@import "../styles/staking.scss";
+@import "../styles/nftstaking.scss";
+@import "../styles/liquidity.scss";

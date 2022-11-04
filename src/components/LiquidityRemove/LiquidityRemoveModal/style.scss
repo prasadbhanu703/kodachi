@@ -1,0 +1,196 @@
+.remove-modal-container {
+  --font-size-xl: 22px;
+  --font-size-l: 19px;
+  --font-size-md: 15px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-xxs: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 45px 40px;
+  .top-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .top-text {
+      color: $white;
+      font-size: var(--font-size-xs);
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+    }
+    .settings-icon {
+      width: 21px;
+      height: 21px;
+    }
+  }
+  .tip-text {
+    font-size: var(--font-size-sm);
+    color: white;
+    padding: 14px 18px 14px 18px;
+    background: $blue-300;
+    border-radius: 22px;
+    line-height: 15px;
+  }
+
+  .remove-account-count {
+    background: $blue-200;
+    border-radius: 22px;
+    padding: 24px;
+    // width: 335px;
+    height: 260px;
+
+    .remove-account-top-text {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+    }
+
+    .sub-heading {
+      color: $blue;
+    }
+  }
+  .heading-count {
+    padding: 24px 0px 24px 0px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+  }
+  .horizontal-line {
+    border: 2px solid #8bbdff;
+  }
+
+  .percentage-box-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+
+    .percentage-box {
+      display: flex;
+      justify-content: center;
+      padding: 3px 8px;
+      background: $blue-400;
+      color: $blue;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      border-radius: 6px;
+    }
+  }
+
+  .remove-account-lower {
+    .down-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+      margin-top: -18px;
+    }
+    .bitcoin-wrapper {
+      margin-right: 20px;
+      background: $blue-200;
+      padding: 24px 18px 12px 18px;
+      border-radius: 22px;
+      width: 330px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      .kod-coin {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+        .kod-coin-icon {
+          display: flex;
+          align-items: center;
+
+          img {
+            height: 20px;
+            width: 20px;
+            margin-right: 5px;
+          }
+        }
+      }
+      .eth-coin {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+        .eth-coin-icon {
+          display: flex;
+          align-items: center;
+          img {
+            height: 20px;
+            width: 20px;
+            margin-right: 5px;
+          }
+        }
+      }
+      .receive-weth {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        color: $blue;
+      }
+    }
+  }
+  .price-wrapper {
+    padding: 36px 12px;
+    .price-top {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: $white;
+      margin-bottom: 18px;
+    }
+    .price-down {
+      text-align: right;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      color: $white;
+    }
+  }
+  .lower-btn-wrapper {
+    display: flex;
+    gap: 20px;
+    .btn-approve {
+     display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      height: 52px;
+      margin-bottom: 10px;
+      background: $blue;
+      border-radius: 21px;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: $white;
+    }
+    .btn-remove {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      height: 52px;
+      margin-bottom: 10px;
+      background: $secondary;
+      border-radius: 21px;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: $white;
+    }
+  }
+}
